@@ -1,0 +1,37 @@
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after{
+  box-sizing:inherit;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  background-color: #E5E5E5;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Futura PT', sans-serif;
+}
+.container{
+  max-width: 1480px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
